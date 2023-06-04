@@ -39,6 +39,7 @@ header {
 #menu a {
   display: block;
   padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 #btn-mobile {
@@ -72,8 +73,8 @@ header {
   }
   #btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
     border: none;
     background: none;
     cursor: pointer;

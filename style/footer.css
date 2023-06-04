@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 footer{
-    position: fixed;
+      position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -22,7 +22,7 @@ footer{
 p{
     color: #fff;
     font-family: Roboto ;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .img-foot{
     height: 24px;
@@ -33,13 +33,15 @@ p{
     display: flex;
     align-items: center;
 }
-@media (max-width: 500px){
+
+@media (max-width: 760px){
     footer{
+        position: static;
         display: flex;
         flex-direction: column;
     }
     .content{
-        padding: px;
+        
         display: flex;
         flex-direction: column;
         height: auto;
