@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastrar Conta</title>
-    <link rel="stylesheet" href="../style/navbar.css" />
-    <link rel="stylesheet" href="../style/footer.css" />
-    <link rel="stylesheet" href="../style/reset.css" />
-    <link rel="stylesheet" href="../style/global.css" />
-    <link rel="stylesheet" href="../style/AddAccount.css" />
+    <link rel="icon" href="../imagens/feed.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/navbar.css" />
+    <link rel="stylesheet" href="../estilos/footer.css" />
+    <link rel="stylesheet" href="../estilos/reset.css" />
+    <link rel="stylesheet" href="../estilos/global.css" />
+    <link rel="stylesheet" href="../estilos/AddAccount.css" />
   </head>
   <body>
     <header>
-      <a href=""> <img src="../imagens/Logo.png" /></a>
+     <a href="../index.html"> <img src="../imagens/Logo.png" /></a>
 
       <nav id="nav">
         <button
@@ -38,54 +39,54 @@
         <div class="my-content">
           <h1>Cadastrar-se</h1>
           <div class="space sp">
-            <form action="">
+            <form action="./myAccount.html" id="myForm">
               <div class="form">
                 <div>
                   <div class="la-in m">
-                    <label> Nome</label>
-                    <input type="text" />
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required/>
                   </div>
                   <div class="la-in m">
-                    <label>Telefone</label>
-                    <input type="number" />
+                    <label for="telefone">Telefone</label>
+                    <input type="number" id="telefone" required/>
                   </div>
                 </div>
                 <div>
                   <div class="la-in m">
-                    <label> Data de Nascimento</label>
-                    <input type="date" />
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <input type="date" id="dataNascimento" required/>
                   </div>
                   <div class="la-in m">
-                    <label>Email</label>
-                    <input type="text" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email"required />
                   </div>
-                </div>            
+                </div>
               </div>
               <div class="form">
                 <div>
                   <div class="la-in m">
-                    <label> usuario</label>
-                    <input type="text" />
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" required/>
                   </div>
                   <div class="la-in m">
-                    <label>Senha</label>
-                    <input type="text" />
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha"required />
                   </div>
                 </div>
                 <div>
                   <div class="la-in m">
-                    <label>   CEP</label>
-                    <input type="text" />
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" required/>
                   </div>
                   <div class="la-in m">
-                    <label>Confirmar senha</label>
-                    <input type="text" />
+                    <label for="confirmarSenha">Confirmar Senha</label>
+                    <input type="password" id="confirmarSenha"required/>
                   </div>
-                </div>            
+                </div>
               </div>
-             
-              <button class="btn">Cadastrar</button>
+              <button class="btn" type="submit">Cadastrar</button>
             </form>
+            
           </div>
         </div>
       </div>
@@ -109,5 +110,7 @@
     </footer>
 
     <script src="../scripts/nav.js"></script>
+
+    <script src="../scripts/addAc.js"></script>
   </body>
 </html>

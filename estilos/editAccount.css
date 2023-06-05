@@ -19,7 +19,7 @@ label{
   flex-direction: column;
 }
 .n{
-width: 50%;
+width: 20%;
 }
 .d{
   width: 80%;
@@ -27,9 +27,7 @@ width: 50%;
 .btn{
   width: 100%;
 }
-.sp{
-  margin-bottom: 34.8rem;
-}
+
 
 
 
@@ -37,4 +35,12 @@ width: 50%;
   span{
     font-size: 2rem;
   }
+  .form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+input:invalid {
+  border-color: red;
 }

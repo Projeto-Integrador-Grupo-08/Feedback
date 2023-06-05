@@ -19,7 +19,7 @@ label{
   flex-direction: column;
 }
 .n{
-width: 20%;
+width: 50%;
 }
 .d{
   width: 80%;
@@ -27,7 +27,9 @@ width: 20%;
 .btn{
   width: 100%;
 }
-
+.sp{
+  margin-bottom: 34.8rem;
+}
 
 
 
@@ -35,8 +37,7 @@ width: 20%;
   span{
     font-size: 2rem;
   }
-  .form{
-    display: flex;
-    flex-wrap: wrap;
-  }
+}
+.error {
+  border: 1px solid red;
 }

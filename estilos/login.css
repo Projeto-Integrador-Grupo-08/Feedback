@@ -24,6 +24,9 @@ width: 50%;
 .d{
   width: 50%;
 }
+.fa{
+  pointer-events: none;
+}
 .btn{
   width: 100%;
 }
@@ -35,6 +38,14 @@ width: 50%;
 .cent{
 margin-top: 17rem;
 margin-bottom: 10rem;
+}
+.mens {
+  visibility: hidden; 
+  color: #e74c3c;
+}
+
+.mens.error {
+  visibility: visible;
 }
 
 @media (max-width: 500px){
