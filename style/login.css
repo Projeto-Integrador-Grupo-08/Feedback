@@ -1,0 +1,44 @@
+.form{
+  display: flex; 
+  gap: 6rem;
+}
+input{
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  height: 4rem;
+background-color: #D9D9D9;
+border-radius:8px ;
+margin-bottom: 2rem;
+}
+label{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.la-in{
+  display: flex;
+  flex-direction: column;
+}
+.n{
+width: 50%;
+}
+.d{
+  width: 50%;
+}
+.btn{
+  width: 100%;
+}
+
+.btnns{
+  display: flex;
+  gap: 3rem;
+}
+.cent{
+margin-top: 17rem;
+margin-bottom: 10rem;
+}
+
+@media (max-width: 500px){
+  span{
+    font-size: 2rem;
+  }
+}
