@@ -1,0 +1,38 @@
+.form{
+  display: flex; 
+  gap: 6rem;
+}
+input{
+  height: 4rem;
+background-color: beige;
+border-radius:8px ;
+margin-bottom: 2rem;
+}
+label{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.la-in{
+  display: flex;
+  flex-direction: column;
+}
+.n{
+width: 20%;
+}
+.d{
+  width: 80%;
+}
+.btn{
+  width: 100%;
+}
+.sp{
+  margin-bottom: 34.8rem;
+}
+
+
+
+@media (max-width: 500px){
+  span{
+    font-size: 2rem;
+  }
+}
